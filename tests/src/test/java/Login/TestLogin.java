@@ -58,7 +58,7 @@ public void LoginWithAccountNull()throws Exception
 
     }
 
-    @Test(priority = 1)
+   /* @Test(priority = 1)
     public void LoginWithOnlyFillAccount()throws Exception
     {
                 LoginPage login=new LoginPage(driver);
@@ -200,7 +200,7 @@ public void LoginWithAccountNull()throws Exception
         }
 
     }
-
+*/
 
 
 
