@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">7</td><td class="numi">7</td><td class="numi">0</td><td class="numi">0</td><td class="numi">102.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">Login.TestLogin</td><td><a href="#m1"><b>afterTest</b>  </a></td><td class="numi">1</td><td>1536639491128</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Command line test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="7">Login.TestLogin</td><td><a href="#m2"><b>LoginWithAccountNull</b>  </a></td><td class="numi">1</td><td>1536639412913</td><td class="numi">18599</td></tr><tr class="passedodd"><td><a href="#m3"><b>LoginWithCorrectAccountAndPassword</b>  </a></td><td class="numi">1</td><td>1536639491090</td><td class="numi">6</td></tr><tr class="passedodd"><td><a href="#m4"><b>LoginWithEmail</b>  </a></td><td class="numi">1</td><td>1536639491096</td><td class="numi">13</td></tr><tr class="passedodd"><td><a href="#m5"><b>LoginWithIncorrectPassword</b>  </a></td><td class="numi">1</td><td>1536639485910</td><td class="numi">5180</td></tr><tr class="passedodd"><td><a href="#m6"><b>LoginWithOnlyFillAccount</b>  </a></td><td class="numi">1</td><td>1536639431513</td><td class="numi">26839</td></tr><tr class="passedodd"><td><a href="#m7"><b>LoginWithOnlyFillPassword</b>  </a></td><td class="numi">1</td><td>1536639458353</td><td class="numi">27557</td></tr><tr class="passedodd"><td><a href="#m8"><b>LoginWithPhoneNumner</b>  </a></td><td class="numi">1</td><td>1536639491109</td><td class="numi">18</td></tr>
+</table>
+<h1>Command line test</h1>
+<h2 id="m1">Login.TestLogin:afterTest</h2>
+<div style="padding-left:3em">
+<p>A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;dfmpc106.example.com&apos;, ip: &apos;127.0.0.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;3.16.0-4-amd64&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=/home/sysadmin/Workspaces/EZQUA/tests/src/main/resources/app-debug.apk, appPackage=com.amely.socialapp, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, appWaitActivity=com.amely.socialapp.view.activity.LoginActivity&apos;,com.amely.socialapp.view.activity.LoginActivity, appWaitPackage=com.amely.socialapp, databaseEnabled=false, deviceName=3300a7537024b357, platform=LINUX, deviceUDID=3300a7537024b357, appActivity=com.amely.socialapp.view.activity.SplashScreenActivity, AppPackage=com.amely.socialapp, desired={app=/home/sysadmin/Workspaces/EZQUA/tests/src/main/resources/app-debug.apk, AppPackage=com.amely.socialapp, appWaitActivity=com.amely.socialapp.view.activity.LoginActivity&apos;,com.amely.socialapp.view.activity.LoginActivity, AppActivity=com.amely.socialapp.view.activity.SplashScreenActivity, platformName=Android, deviceName=192.168.57.101:5555}, platformVersion=7.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, AppActivity=com.amely.socialapp.view.activity.SplashScreenActivity, javascriptEnabled=true, deviceModel=SM-G610F, platformName=Android, deviceManufacturer=samsung}]
+Session ID: 1cae9d31-d9af-45b2-8ef7-ff1d630a3d24</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+<br/>at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:235)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:526)
+<br/>at Login.TestLogin.afterTest(TestLogin.java:211)
+<br/>32 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">Login.TestLogin:LoginWithEmail</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">Login.TestLogin:LoginWithPhoneNumner</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">Login.TestLogin:LoginWithOnlyFillPassword</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">Login.TestLogin:LoginWithIncorrectPassword</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">Login.TestLogin:LoginWithCorrectAccountAndPassword</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">Login.TestLogin:LoginWithOnlyFillAccount</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">Login.TestLogin:LoginWithAccountNull</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

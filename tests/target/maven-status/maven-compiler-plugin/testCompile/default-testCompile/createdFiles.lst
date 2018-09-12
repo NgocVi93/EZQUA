@@ -1,0 +1,17 @@
+Ezqua/Event.class
+formForTest/TestSendEmoji.class
+SignUp/SignUpPage.class
+Login/LoginPage.class
+Ezqua/Message.class
+Ezqua/ProfilePage/Profile.class
+SignUp/SignUpTest.class
+Newfeeds/NewfeedTest.class
+Event/EventPage.class
+formForTest/CheckTotalPriceAfterAddToCart.class
+Login/ElementMenu.class
+Login/TestLogin.class
+Ezqua/ProfilePage/MessageTest.class
+Newfeeds/NewfeedHome.class
+Wallet/Wallet.class
+Wallet/WalletTest.class
+Event/EventTest.class

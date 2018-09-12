@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Login.TestLogin]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="Login.TestLogin">
+        <methods>
+          <include name="LoginWithEmail"/>
+          <include name="LoginWithIncorrectPassword"/>
+          <include name="LoginWithCorrectAccountAndPassword"/>
+          <include name="LoginWithOnlyFillPassword"/>
+          <include name="LoginWithPhoneNumner"/>
+          <include name="beforeTest"/>
+          <include name="LoginWithOnlyFillAccount"/>
+          <include name="LoginWithAccountNull"/>
+        </methods>
+      </class> <!-- Login.TestLogin -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Login.TestLogin] -->

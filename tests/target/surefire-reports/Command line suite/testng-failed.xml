@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="Wallet.WalletTest">
+        <methods>
+          <include name="GoToWAllet"/>
+          <include name="WithDrawalUsingPaypal"/>
+          <include name="DepositWithATM"/>
+          <include name="CompareTitle"/>
+          <include name="FillAmountLessThanMin"/>
+          <include name="WithDrawalLessMax"/>
+          <include name="WithDrawalUsingBankAccount"/>
+          <include name="WithDrawalLessMin"/>
+          <include name="FillAmountBiggerThanMax"/>
+        </methods>
+      </class> <!-- Wallet.WalletTest -->
+      <class name="SignUp.SignUpTest">
+        <methods>
+          <include name="SignUpWithCorrectAllOffField"/>
+          <include name="SignUpWithDulicateUsername"/>
+          <include name="SignUpWithLimitCharaterUsername"/>
+          <include name="SignUpWithNotMatchEmail"/>
+          <include name="SignUpWithIncorrectPhonenumber"/>
+          <include name="SignUpWithOnlyFillPhoneNumber"/>
+          <include name="SignUpWithOnlyFillUsername"/>
+          <include name="SignUpWithUserNameHasSpecialCharacter"/>
+          <include name="SignUpWithOnlyFillPassword"/>
+          <include name="SignUpWithIncorrectEmail"/>
+          <include name="SignUpWithLimitPassword"/>
+          <include name="SignUpWithNotMatchPassword"/>
+          <include name="SignUpWithOnlyFillEmail"/>
+          <include name="SignUpWithOnlyFillEmailRe"/>
+          <include name="SignUpWithDoNotFillLastName"/>
+          <include name="SignUpWithDoNotFillFirstName"/>
+          <include name="SignUpWithFillAllSignUpScreen1"/>
+          <include name="SignUpWithOnlyFillPasswordRe"/>
+          <include name="SignUpWithDoNotFillSignUpScreen2"/>
+          <include name="SignUpWithDoNotFillSignUpScreen1"/>
+        </methods>
+      </class> <!-- SignUp.SignUpTest -->
+      <class name="Ezqua.ProfilePage.MessageTest">
+        <methods>
+          <include name="Chat"/>
+          <include name="ChatWithSendText"/>
+          <include name="ChatWithSendEmoji"/>
+          <include name="GetTitle"/>
+        </methods>
+      </class> <!-- Ezqua.ProfilePage.MessageTest -->
+      <class name="Login.TestLogin">
+        <methods>
+          <include name="LoginWithEmail"/>
+          <include name="LoginWithIncorrectPassword"/>
+          <include name="LoginWithCorrectAccountAndPassword"/>
+          <include name="LoginWithOnlyFillPassword"/>
+          <include name="LoginWithPhoneNumner"/>
+          <include name="LoginWithOnlyFillAccount"/>
+          <include name="LoginWithAccountNull"/>
+        </methods>
+      </class> <!-- Login.TestLogin -->
+      <class name="Event.EventTest">
+        <methods>
+          <include name="Login"/>
+          <include name="beforeTest"/>
+          <include name="CreateEvent"/>
+        </methods>
+      </class> <!-- Event.EventTest -->
+      <class name="Newfeeds.NewfeedTest">
+        <methods>
+          <include name="Comment"/>
+          <include name="CreateNewfeedsWithPrivacyOnlyMe"/>
+          <include name="CreateNewfeedsWithPrivacyPublic"/>
+          <include name="Login"/>
+          <include name="CreateNewfeedsWithPrivacyFriend"/>
+          <include name="LikeStatus"/>
+        </methods>
+      </class> <!-- Newfeeds.NewfeedTest -->
+      <class name="formForTest.TestSendEmoji">
+        <methods>
+          <include name="CheckCaseSendText"/>
+        </methods>
+      </class> <!-- formForTest.TestSendEmoji -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
