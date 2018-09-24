@@ -1,11 +1,10 @@
-package Ezqua.ProfilePage;
+package ProfilePage;
 
 import Login.ElementMenu;
 import Login.LoginPage;
 import SignUp.SignUpPage;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
-import javafx.scene.layout.Priority;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;

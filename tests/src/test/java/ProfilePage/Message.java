@@ -1,11 +1,10 @@
-package Ezqua;
+package ProfilePage;
 
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.MultiTouchAction;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -17,7 +16,6 @@ import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
-
 
 import static com.thoughtworks.selenium.SeleneseTestCase.assertNotEquals;
 import static org.testng.Assert.assertEquals;

@@ -189,7 +189,7 @@ public void LoginWithAccountNull()throws Exception
             login.Login("0987456123", "vipn123");
             login.Sleep(3000);
 
-            String ActualScreen = driver.currentActivity();
+            String ActualScreen = driver.currentActivity(); 
             login.Sleep(3000);
             assertNotEquals(CurrentScreen,ActualScreen);
             System.out.print("Passed LoginWithPhoneNumner");
